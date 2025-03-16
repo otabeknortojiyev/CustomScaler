@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun CustomScales() {
+fun CustomScaler() {
     val density = LocalDensity.current.density
     val cmToPx = remember { 10 * density }
     val totalWidthPx = remember { 3000 * cmToPx }
